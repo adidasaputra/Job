@@ -1,29 +1,111 @@
+<!DOCTYPE <!DOCTYPE html>
 <html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="separator">
-      <h1>1. Selector dan Styling Sederhana</h1>
-      <div id="maroon-box" class="box-100">Saya adalah Box Berwarna Maroon</div>
-      <div id="dark-blue-box" class="box-100">Saya adalah Box Berwarna Dark Blue</div>
-      <div id="salem-box" class="box-100" >Saya adalah Box Berwarna Salem</div>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ini adalah website pertama</title>
+    <meta name="description" content="Percobaan pembuatan website">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                
+            }
+            th, td {
+                padding: 5px 10px 5px 10px;
+                text-align: center;
+            }
+            </style>
+
+</head>
+<body>
+    <nav>
+
+
+    </nav>
+    <p style="float:right; clo ">Ini Paragraph pertama</p>
+    <p>Ini Paragraph kedua</p>
+
+    <div>
+        <h1>Head 1</h1>
+        <p><b> Lorem </b>ipsum dolor sit amet consectetur adipisicing elit. Laborum, sed recusandae? Illo earum iste consequuntur eos magnam, veritatis nam in eaque similique natus dolore animi aliquid, minus, necessitatibus unde aperiam?</p>
+        <h2 style="color:blue">Head 2</h2>
+        Kita sedang belajar HTML <a href="https://www.w3schools.com/html/html_entities.asp" target="_blank">Chek untuk HTML Entities</a>
+        <h3>Form</h3>
+        <form action="">
+            <label for="">User Name</label><br>
+            <input placeholder="Èx. Udin" type="text"><br>
+            <input type="date" placeholder="tanggal"><br>
+            <input type="email" placeholder="email"><br>
+            <button type="submit">Register</button>
+        </form>
+        <h4>Head 4</h4>
+        <table style="width: 50%">
+            <caption> <h4> Data Siswa </h4></caption>
+            
+                <tr>
+                    <th>No.</th>
+                    <th>Nama</th>
+                    <th>Alamat</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Adi</td>
+                    <td>Cimahi</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Dani</td>
+                    <td>Jakarta</td>
+                </tr>
+        
+        </table>
+        <h5>Head 5</h5>
+        <h6>Head 6</h6>
+        <p>
+            <b>ini pake Bold</b></p>
+            <p><strong>ini pake Strong</strong></p>
+            <p><i>ini pake italic</i>
+
+        </p>  
+        <h6>Head 6</h6>
+        <h5>Head 5</h5>
+        <p> <u> Ini pake angka</u></p>
+        <ol type="1">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol> 
+<p> <u> Ini pake symbol <b>Unordered</b> </u></p>
+          <ul style="list-style-type:square">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul> 
+
+        <h4>Head 4</h4>
+<img src="https://tpc.googlesyndication.com/daca_images/simgad/15900637118466523404?w=400&h=209" alt="Ini tes gambar" width="10%" height="10%">
+
+        <h3>Head 3</h3>
+        <h3>Head 3</h3>
+        <h2>Head 2</h2>
+        <h1>Head 1</h1>
+        
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur provident necessitatibus culpa,
+             atque, voluptatibus quisquam dolorum nemo incidunt, nesciunt et eligendi neque delectus modi esse explicabo rerum ullam molestiae beatae!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam consequuntur dolores rem quisquam accusantium magnam eum nulla ipsam tempore voluptas et atque debitis id veritatis, molestias ea, at quis similique.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi rerum alias et reiciendis velit quod dicta atque, odio, fuga, numquam nobis repellat tenetur. Non distinctio ipsum expedita nisi, voluptatibus fugiat.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos illo iste atque, blanditiis mollitia quibusdam voluptate culpa quis possimus deleniti corporis quaerat fuga ratione reprehenderit. Beatae et sed error earum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum similique deserunt doloremque in ut fugit, quis, asperiores enim necessitatibus dicta possimus, minus assumenda soluta rem adipisci fuga ratione aspernatur.
+            </p>
     </div>
-    <div class="separator">
-      <h1>2. Selector Lebih Dari Satu</h1>
-      <div class="box-100 red-background" >Saya adalah Box Red berukuran 100</div>
-      <div class="box-200 red-background" >Saya juga Box Red tapi ukurannya 200</div>
-      <div class="box-200 blue-background">Saya adalah Box Blue berukuran 200</div>
-      <div class="box-200 green-background">Saya juga berukuran 200 tapi warnanya Green</div>
-    </div>
-    <div class="separator">
-      <h1>3. Selector Melalui Parent</h1>
-      <div class="box-list">
-        <div>Desain saya diatur oleh Parent Saya</div>
-        <div>Desain saya diatur oleh Parent Saya</div>
-        <div id="gold-box">Desain saya diatur oleh Parent Saya, tapi saya punya warna khusus, yaitu Gold!</div>
-      </div>
-    </div>
-  </body>
+
+    <footer>
+
+    </footer>
+</body>
 </html>
